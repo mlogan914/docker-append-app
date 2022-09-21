@@ -11,7 +11,7 @@ Create a docker container for data process.
 1. Construct a dockerfile to create an image to generate a Docker container, and in the container:
 - Use a python script to read the data **t1.csv** and **t2.csv** from **input** folder
 - The data will be appended to a csv file named **all_years.csv**
-- Write the result data into **output** folder
+- Write the result data into the **output** folder
 
 ## 2. Make the container run first, then run then python script to permit troubleshooting the container
 - This means when _docker run_ is executed to start up the container, the python script will not run
