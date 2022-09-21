@@ -6,6 +6,7 @@ Create a docker container for data process.
 - The python script is in the container
 - The **input** and **output** folder is in the host, in another word, outside the container
 - Mount the 2 folders from host to the container
+- All scripts, data and final csv file is pushed to this Github repository using shell commands.
 
 ## 3. Specification Detail
 1. Construct a dockerfile to create an image to generate a Docker container, and in the container:
