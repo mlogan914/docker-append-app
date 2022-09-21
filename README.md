@@ -17,7 +17,7 @@ Create a docker container for data process.
 2. Make the container run first, then run the python script to permit troubleshooting the container
 - This means when _docker run_ is executed to start up the container, the python script will not run
 - The container should remain active until the python scrytp is manually executed
-- The python script only runs when you give the container the order using the docker _docker exec_ command
+- The python script only runs when the container is given the order using the _docker exec_ command
 
 ## Project Diagram:
 ![Docker_lab_Process](https://user-images.githubusercontent.com/74939090/191591390-3b93c7b8-a7c2-4dce-8f61-049a65102652.jpg)
