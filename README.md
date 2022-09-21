@@ -19,5 +19,5 @@ Create a docker container for data process.
 - The container should remain active until the python scrytp is manually executed
 - The python script only runs when the container is given the order using the _docker exec_ command
 
-## Project Diagram:
+## 4. Project Diagram:
 ![Docker_lab_Process](https://user-images.githubusercontent.com/74939090/191591390-3b93c7b8-a7c2-4dce-8f61-049a65102652.jpg)
