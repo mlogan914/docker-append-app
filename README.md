@@ -8,11 +8,11 @@ Create a docker container for data process.
 - Mount the 2 folders from host to the container
 
 ## 3. Specification Detail
-1. Create an image to generate a Docker container, and in the container:
-- Use a python script to read the data from **input** folder
-- The data will be appended to a csv file named all_years.csv
+1. Construct a dockerfile to create an image to generate a Docker container, and in the container:
+- Use a python script to read the data **t1.csv** and **t2.csv** from **input** folder
+- The data will be appended to a csv file named **all_years.csv**
 - Write the result data into **output** folder
 
 ## 2. Make the container run first, and then run python script to permit troubleshooting the container. 
-- This means when docker run us executed to start up the container, the python script will not run. 
-- The python script only runs when you give the container an order using the docker exec command
+- This means when _docker run_ is executed to start up the container, the python script will not run. 
+- The python script only runs when you give the container an order using the docker _docker exec_ command
