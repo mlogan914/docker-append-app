@@ -1,6 +1,6 @@
 # Mini Project -- Docker Container
 ## 1. Business Scenario
-Create a docker container for data process.
+Create a docker container for data processing.
 
 ## 2. Business Requirements
 - The python script is in the container
