@@ -1,4 +1,4 @@
-# Mini Project -- Docker Container
+# Mini Project - Docker Container
 ## 1. Business Scenario
 Create a docker container for data processing.
 
